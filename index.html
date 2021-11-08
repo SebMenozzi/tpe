@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" itemprop="description" content="Projet TPE 2016, les environnements intelligents au service de l'humanité."/>
+		<meta name="keywords" itemprop="keywords" content="tpe, projet, serre, environnements intelligents, arduino"/>
+		<meta name="robots" content="index,follow,noodp"/>
+		<link rel="canonical" href="http://sebmenozzi.com/tpe/"/>
+		<meta property="og:title" content="Projet TPE 2016"/>
+		<meta property="og:type" content="blog"/>
+		<meta property="og:url" content="http://sebmenozzi.com/tpe/"/>
+		<meta property="og:image" content="./img/hero.jpg"/>
+		<meta property="og:site_name" content="Projet TPE 2016"/>
+		<meta property="og:description" content="Projet TPE 2016, les environnements intelligents au service de l'humanité."/>
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:description" content="Projet TPE 2016, les environnements intelligents au service de l'humanité."/>
+		<meta itemprop="image" content="./img/hero.jpg"/>
+
+		<title>TPE 2016 - Les environnements intelligents au service de l'humanité.</title>
+
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="css/index.css" rel="stylesheet">
+		
+		<!-- Animate CSS -->
+		<link href="css/animate.css" rel="stylesheet">
+
+		<!-- Custom Fonts -->
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body id="page-top" class="index">
+	
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand page-scroll" href="#page-top"><strong>TPE 2016</strong> : S. Menozzi et A. Menacer</a>
+				</div>
+
+				<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 0.8px;">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hidden active">
+							<a href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#intro">Introduction</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#partie_I">Partie I</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#partie_II">Partie II</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#partie_III">Partie III</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#partie_IV">Partie IV</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#conclusion">Conclusion</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Header -->
+		<header>
+			<div class="container">
+				<div class="intro-text">
+					<div class="intro-lead-in fadeInLeft animated"><strong>Sujet</strong>: Les environnements intelligents au service de l'humanité</div>
+					<h1 class="section-heading text-center wow tada">
+						<strong>Thème</strong>: Ethique et responsabilité.<br />
+						<strong>Matières</strong>: Physique, SVT.
+					</h1>
+				</div>
+			</div>
+		</header>
+		
+		<!-- Intro Section -->
+		<section id="intro" class="angle">
+			<div class="container">
+				<div class="row">
+					<br />
+					<h1 class="section-heading text-center wow tada">Introduction</h1>
+					<hr />
+					<p>
+						La démographie est sans doute <strong>l'un des enjeux de notre siècle</strong>. 
+						La thèse pessimiste <strong>de Malthus</strong> assure que la population <strong>tend à croitre plus rapidement que ses ressources</strong> si bien qu’à terme, celle-ci serait <strong>insuffisante pour couvrir les besoins de l’humanité</strong>. 
+						Cette thèse n’est pas sans fondement puisqu’en effet, sur les sept milliards d’habitants, <strong>le septième souffre de malnutrition</strong> selon <a href="http://www.insee.fr/fr/themes/tableau.asp?reg_id=948&ref_id=CMPTEF01116">l’Insee</a>. 
+						En 2050 (et ce toujours selon <a href="http://www.insee.fr/fr/themes/tableau.asp?reg_id=98&ref_id=CMPTEF01116">l’Insee</a>) nous avoisinerons dix milliards d'êtres humains sur Terre soit trois milliards de rations supplémentaires à produire …
+						Or notre <strong>gestion et la disponibilité</strong> des ressources agricoles peut <strong>difficilement nous le permettre</strong>.
+						En plus de cela, nous sommes témoin <strong>d’une urbanisation toujours plus grande</strong> se faisant <strong>au détriment de nos espaces agricoles.</strong>
+						Parallèlement à l’expansion démographique, l’homme a usé d’ingéniosité pour découvrir faits et méthodes scientifiques et créer technologies électroniques et informatiques.
+						Ces dernières pourraient lui offrir une possibilité de <strong>concilier anthropisation et agriculture</strong>. Nous pouvons ainsi nous demander :</p>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Problematique Section -->
+		<section id="prob" class="bg-primary" style="padding: 60px 0;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<h2 class="text-center">Problématique</h2>
+						<hr class="light" />
+						<p class="text-faded text-center">Est-il possible d'identifier et contrôler les différents facteurs physico-chimiques liés au bon développement de la plante afin de permettre sa bonne croissance au sein d'un milieu urbain et ceci de façon automatisée afin de subvenir à nos besoins futurs ?</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Partie I Section -->
+		<section id="partie_I">
+			<div class="container">
+				<div class="row">
+					<br />
+					<h1 class="section-heading text-center wow tada">I - La Photosynthèse</h1>
+					<hr />
+					<p class="text-faded">
+						<i>
+							Les plantes étant des organismes autotrophes, une des seules sources d'alimentation d'un végétal et de loin la plus importante est la photosynthèse.
+							Ce processus bioénergétique consiste à transformer l'énergie lumineuse en énergie chimique.
+							Ainsi il lui est possible de synthétiser du glucose (nutriment), indispensable à son bon développement.
+							Pour mieux appréhender la suite de nos travaux, il est impératif de comprendre le fonctionnement de ce procédé à la base de l'entretien de la plante.
+							Ce procédé se distingue par deux phases : l'une dite claire et l'autre dite sombre. 
+							Celle-ci opère au sein d'une structure complexe, la cellule végétale.
+						</i>
+					</p>
+					<h3>1. Structure d'une cellule végétale</h3>
+					<p class="text-faded">
+						Avant de commencer à parler de photosynthèse, il est essentiel d'étudier partiellement la structure interne d'une cellule végétale.
+					</p>
+					<br /><br />
+					<img style="width: 500px;" class="img-centered-center" src="./img/biovegetal.png" />
+					<figcaption class="text-center">Schéma représentant la structure interne d'une cellule végétale. <i>(<a href="http://www.greenandgarden.org/images/photo/ecosys/biovegetal.png">Source</a>)</i></figcaption>
+					<br /><br />
+					<p class="text-faded">
+						Celle-ci se constitue, en plus d’un noyau, d’un cytoplasme et d’une membrane plasmique, d’une paroi cellulosique mais aussi de multiples autres éléments comme des organites notamment les chloroplastes sur lesquels nous allons porter notre attention.
+					</p>
+					<h3>2. Les chloroplastes, les organistes à la base de la photosynthèse</h3>
+					<p class="text-faded">
+						Les chloroplastes sont les organites à la base de la photosynthèse. 
+						Ils se composent d’une membrane externe et d’une membrane interne répliée sur elle-même et forment des thylakoïdes formant des paquets nommé « granum ». 
+						Les grana baignent dans le stroma.
+					</p>
+					<br /><br />
+					<img style="width: 500px;" class="img-centered-center" src="./img/chloroplastes.png" />
+					<figcaption class="text-center">Schéma représentant la structure interne d'un chloroplaste. <i>(<a href="https://www.youtube.com/watch?v=XmFg91BmS-o&feature=youtu.be&t=34s">Source: extraite de la vidéo</a>)</i></figcaption>
+					<br /><br />
+					<p class="text-faded">
+						Les thylakoïdes sont des unités composées d’une membrane thylakoïdienne et d’un espace intrathylakoïdien ou « lumen ».
+					</p>
+					<br /><br />
+					<img style="width: 500px;" class="img-centered-center" src="./img/thylakoide.png" />
+					<figcaption class="text-center">Schéma simplifié représentant la structure interne d'un thylakoide. <i>(Source: de notre production)</i></figcaption>
+					<br /><br />
+					<h3>3. La phase claire</h3>
+					<p class="text-faded">
+						La phase claire ou phase photochimique est la phase directement dépendante de l'énergie lumineuse mis en évidence par R.HILL au milieu du 20ème siècle. 
+						C'est au sein de la membrane thylakoïdienne que se trouve le photosystème 2 (PSII) qui à l'aide des pigments, récupère et fixe l'énergie lumineuse. 
+						Les électrons de ces molécules sont excitées par les radiations, celles-ci libèrent alors deux électrons, ils sont envoyés vers un accepteur primaire d'électrons.
+						Cet accepteur d'électrons renvoie à son tour les électrons dans une chaîne de transfert ce qui aura pour effet un déplacement des ions H<sup>+</sup> contenu dans le stroma vers l'espace intrathylakoïdien.
+						Les électrons une fois arrivés au photosystème 1 (PSI) seront envoyés à une nouvelle chaîne de transfert qui à la fin de sa course débouchera vers l'NADP-réductase et serviront à la formation d'NADPH (molécule énergénique) à partir de l'NADP+ et d'ions hydrogène.
+						Le produit sera libéré dans le stroma. 
+						Parallèlement, le photosystème 2 en déficit d'électrons oxydera par un procédé enzymatique l'eau afin d'extirper les électrons aux atomes d'hydrogène pour palier à ce manque.
+						Ainsi il y a également formation d'ions hydrogène. Les protons contenus dans l'espace intrathylakoïdien sont alors expulsés par l'ATP-synthase.
+						Le déplacement de ces protons contribue à la formation d'ATP (molécule énergétique) à l'aide de l'ADP et de phosphate inorganique : ADP + Pi → ATP. 
+						Ce produit sera également rejeté dans le stroma.
+						<br />
+						<i>Note: La production de NADPH et d'ADP est uniquement possible à l'aide d'enzymes.</i>
+						<br /><br />
+					</p>
+					<iframe style="position: relative; margin: auto; width: 100%;" width="854" height="480" src="https://www.youtube.com/embed/XmFg91BmS-o" frameborder="0" allowfullscreen></iframe>
+					<figcaption class="text-center">Auteur de la vidéo: Chantal Proulx</figcaption>
+					<br /><br />
+					<h3>3. La phase sombre</h3>
+					<p class="text-faded">
+						La phase sombre ou cycle de Calvin est la phase indirectement dépendante de l'énergie lumineuse mise en évidence par M.CALVIN et A.BENSON au milieu du 20ème siècle à l’aide de carbone radioactif.
+						Durant cette phase du CO<sub>2</sub> préalablement absorbé du milieu de culture réagit avec le RuBP (métabolite issus de la phase sombre) pour former de l’APG tel que :
+						3RuBP + 3CO2 → 6APG.
+						Ainsi s'opère un procédé de fixation du carbone.
+						L’APG à son tour forme dans de multiple réaction impliquant l’NADPH et l’ATP (ils perdront leurs énergie et retrouveront leur forme orignal NADP+ et ADP) du G3P qui une fois exporter hors du cycle de calvin et traiter permettra la synthèse de glucose.
+						<br />
+						<i>Note: Toutes ces opérations sont possibles à l’aide de plusieurs enzymes.</i>
+					</p>
+					<img style="width: 500px;" class="img-centered-center" src="./img/photosynthese2.jpg" />
+					<figcaption class="text-center">Schéma représentant l'intégralité des opérantions résultant de la photosynthèse. <i>(<a href="http://www.biology.iupui.edu/biocourses/N100/images/ch9photosynth.jpg">Source</a>)</i></figcaption>
+					<br /><br /><br /><br /><br />
+					<p class="text-faded">
+						<i>Ainsi le processus complexe de photosynthèse peut être vulgarisée par la transformation suivante:</i>
+						<strong>6H<sub>2</sub>O + 6CO<sub>2</sub> + (<i>Energie lumineuse</i> + <i>pigment</i>) → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub></strong>
+					</p>
+				</div>
+			</div>
+			<hr />
+		</section>
+		
+		<!-- Partie II Section -->
+		<section id="partie_II">
+			<div class="container">
+				<div class="row">
+					<h1 class="section-heading text-center wow tada">II - Identification des facteurs déterminants</h1>
+					<hr />
+					<p class="text-faded">
+						<i>
+							Au cours de notre série d'investigations, nous utiliserons comme cobaye la laitue.
+							En effet, celle-ci en plus de représenter la dimension alimentaire de notre projet, est facile de procuration et de culture. 
+							De plus, il est bon de savoir que lorsque nous serons amené à identifier les paramètres et donc à les faire varier nous n’en étudierons qu’un à la fois, les autres paramètres étant comparables en tout point. 
+							La photosynthèse étant le procédé de synthèse des nutriments c’est leurs impacts sur ce dernier qui sera le critère de sélection.
+						</i>
+						<br /><br />
+						<img style="width: 500px;" class="img-centered" src="./img/laitue.jpg" />
+						<figcaption class="text-center">Photo du type de laitue utilisé. <i>(Source: de notre production)</i></figcaption>
+						<br />
+					</p>
+					<h3 class="section-heading text-center">1. Intensité lumineuse</h3>
+					<br />
+					<div class="col-md-8">
+						<p class="text-faded">
+							En utilisant la fiche protocole ci-contre, nous avons étudié l'action de l'intensité lumineuse sur la photosynthèse (procédé de synthèse de nutriment).
+						</p>
+						<br /><br />
+						<img class="img-centered" src="./img/intensite.png" />
+						<figcaption class="text-center">Graphique représentant les fluctuation d'O<sub>2</sub> et de CO<sub>2</sub> en fonction de l'intensité lumineuse.</figcaption>
+						<br /><br />
+						<p class="text-faded">
+							On constate sur le graphique que le rapport entre la quantité de dioxygène et de dioxyde de carbone s'intencifie durant les phases de clarté, du dioxygène apparait au détriment du dioxyde de carbone (et inversement durant la phase d’obscurité, la respiration prend le pas). L’intensité du processus de photosynthèse semble augment parallèlement à l’intensité lumineuse.
+							Celle-ci semble être un paramètre non négligeable affectant le bon développement de la plante.
+							Ceci peut être expliqué par le fait que comme vu précédemment la photosynthèse nécessite de l’énergie lumineuse comme catalyseur ( libération des électrons permettant la synthèse des molécules énergétiques) :
+							<br /><br />
+							<div style="font-size: 25px;" class="text-center">
+								6H<sub>2</sub>O + 6CO<sub>2</sub> + (<i><strong>Énergie lumineuse</strong></i> + pigment) → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>
+							</div>
+						</p>
+						<br />
+						<p class="text-faded">
+							Ainsi plus la quantité (ici l’intensité) de ce catalyseur est importante plus l’intensité de la réaction l’est.
+							Cela peut se traduire par le fait que les photosystèmes contenus dans la membrane thylakoïdienne reçoivent plus d'énergie.
+							<strong>De ce fait l’intensité lumineuse est un facteur déterminant dans pour le bon développement du végétal. </strong>
+						</p>
+					</div>
+					<div class="col-md-4">
+						<h3>Fiche Protocole</h3>
+						<h4>1. Matériel</h4>
+						<ul>
+							<li>Sonde à CO<sub>2</sub> / O<sub>2</sub></li>
+							<li>Un Ordinateur munie du logiciel "Atelier Scientifique"</li>
+							<li>D'une lampe de couleur blanche</li>
+							<li>D'un tube en PVC d'un mètre de longueur</li>
+							<li>D'une scie</li>
+							<li>Des feuilles d'Elodées</li>
+							<li>Eau riche en CO<sub>2</sub> (type Sodastream)</li>
+							<li>D'un environnement munie d'un agitateur magnétique et de caches</li>
+						</ul>
+						<h4>2. Protocole</h4>
+						<p class="text-faded">
+							<strong>Etape 1 :</strong><br />
+							- Préparez les feuilles d'Elodée, les couper finement et les introduire dans l'environnement contenant au préalable de l'eau riche en CO<sub>2</sub>.
+							<br />
+							<strong>Etape 2 :</Strong> <br />
+							- Dirigez la lampe éteinte dans le tube en PVC en direction de l'environnement.
+							<br />
+							<strong>Etape 3 :</Strong> <br />
+							- Après avoir relié les sondes à un ordinateur et les avoir calibrées, plongez-les dans l'environnement puis ouvrez "<i>Atelier Scientifique</i>" et sélectionnez la rubrique "<i>Photosynthèse</i>".
+							<br />
+							<strong>Etape 4 :</Strong> <br />
+							- Démarrez l’acquisition et alterner obscurité et lumière toutes les 2 minutes, scié le tube de pvc de 10cm entre chaque phase de clarté, constatez les effets de l'intensité lumineuse sur la photosynthèse.
+							Enregistrez vôtre production.
+							<br />
+							
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="no-padding" id="portfolio">
+			<div>
+				<div class="row no-gutter">
+					<div class="col-lg-4 col-sm-6">
+						<a href="./img/intensité-lumineuse/5.jpg" class="portfolio-box">
+							<img src="./img/intensité-lumineuse/5.jpg" class="img-responsive wow bounceIn animated" data-wow-delay=".2s" alt="">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Intensité lumineuse
+									</div>
+									<div class="project-name">
+										Eau riche en CO<sub>2</sub>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<a href="./img/intensité-lumineuse/2.jpg" class="portfolio-box">
+							<img src="./img/intensité-lumineuse/2.jpg" class="img-responsive wow bounceIn animated" data-wow-delay=".4s" alt="">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Intensité lumineuse
+									</div>
+									<div class="project-name">
+										Feuilles d'élodées dans de l'eau riche en CO<sub>2</sub>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<a href="./img/intensité-lumineuse/3.jpg" class="portfolio-box">
+							<img src="./img/intensité-lumineuse/3.jpg" class="img-responsive wow bounceIn animated" data-wow-delay=".6s" alt="">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Intensité lumineuse
+									</div>
+									<div class="project-name">
+										Durant le protocole
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<a href="./img/intensité-lumineuse/4.jpg" class="portfolio-box">
+							<img src="./img/intensité-lumineuse/4.jpg" class="img-responsive wow bounceIn animated" data-wow-delay=".8s" alt="">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Intensité lumineuse
+									</div>
+									<div class="project-name">
+										Durant le protocole
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<a href="./img/intensité-lumineuse/7.jpg" class="portfolio-box">
+							<img src="./img/intensité-lumineuse/7.jpg" class="img-responsive wow bounceIn animated" data-wow-delay="1.2s" alt="">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Intensité lumineuse
+									</div>
+									<div class="project-name">
+										scie
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<a href="./img/intensité-lumineuse/6.jpg" class="portfolio-box">
+							<img src="./img/intensité-lumineuse/6.jpg" class="img-responsive wow bounceIn animated" data-wow-delay="1.4s" alt="">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Intensité lumineuse
+									</div>
+									<div class="project-name">
+										scie
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- suite2 Section -->
+		<section id="suite2">
+			<div class="container">
+				<div class="row">
+					<h3 class="section-heading text-center">2. Le spectre lumineux</h3>
+					<br />
+					<div class="col-md-8">
+						<p class="text-faded">
+							En appliquant les méthodes ci-jointes dans les fiches protocoles, nous avons obtenu un spectre d'action et le spectre d'absorption des pigments.
+							<br /><br />
+							<img class="img-centered" src="./img/spectre-action.png" />
+							<figcaption class="text-center">Graphique représentant les fluctuation d'O<sub>2</sub> et de CO<sub>2</sub> en fonction de la couleur émise.</figcaption>
+							<br />
+							<img class="img-centered" src="./img/spectre-abs.jpg" />
+							<figcaption class="text-center">Graphique représentant les fluctuation d'O<sub>2</sub> et de CO<sub>2</sub> en fonction de la couleur émise.</figcaption>
+							<br />
+							<p class="text-faded">
+								<i>La préparation étudiée contient les pigments photosynthétiques qui assurent le processus de photosynthèse (c’est-à-dire les chlorophylles a et b, les xanthophylles et le carotène).</i>
+								<br /><br />
+								On constate selon le spectre d’action que les radiations de couleurs bleu et rouge sont les radiations les plus efficaces et montre clairement l’action de la photosynthèse. 
+								L’effet de la radiation verte bien que visible est insignifiant (de l’ordre de 5 fois plus faible). 
+								Le spectre de couleur blanche à un effet légèrement supérieur à notre premier couple de radiations.
+								<br />
+								Le spectrophotomètre est un appareil qui décompose un spectre de lumière blanche et projette celle-ci.
+								Ses radiations plongées alors dans la préparation sont en partis absorbées. 
+								Le spectre émis est alors discontinu et nous renseigne (là où il y a des manques) sur les radiations absorbées.
+								Dans notre cas, des unités photosensibles transforment les différentes radiations en tension et permettent un traitement numérique de l'information.
+								Ainsi, il est possible de trouver quelles sont les longueurs d'ondes spécifiques qui sont absorbées par la solution et de présenter le résultat sous forme de graphique.
+								<br /><br />
+								Les pigments contenus dans la membrane thylakoidienne, elle-mêmes contenus dans les thylakoides, eux-même contenus dans les chloroplastes,
+								captent l'énergie lumineuse et cèdent deux électrons à un accepteur primaire d'électron  qui engendrera l'activation d'un processus à la base de la photosynthèse.
+								
+								<br /><br />
+								On constate sur le graphique obtenu deux principaux pic d’absorption l’un aux alentours de 440 nm (qui correspond à la couleur bleue) et l’autre aux alentours de 670 nm (qui correspond à la couleur rouge).
+								La photosynthèse semble répondre à des exigences en matière de radiations diffusées
+								On peut l’expliquer par le fait que les pigments (comment tout autre unité chimique) du fait de leurs structures électroniques requièrent une quantité d’énergie précise pour délivrer des électrons. 
+								Cela permet ici entre autre le début de la photosynthèse (le pigment cède des électrons à l’accepteur d’électron).
+								Ainsi seules certaines radiations ont un effet escompté.
+							</p>
+							<img class="img-centered" src="./img/electron.jpg" />
+							<figcaption class="text-center">Schéma d'un des atomes constituant un pigment en excitation (<i><a href="http://mpronovost.profweb.ca/BIONP1/electron.jpg">Source</a></i>)</figcaption>
+							<br />
+							<p class="text-faded">
+								On peux par ailleurs calculer l'énergie nécessaire à cette libération dans le cas du pic bleu: <br />
+								On sait que:<br />
+								E=hv  v = c/lambda<br />
+								Donc E = (h*c)/lambda<br />
+								Ici lambda vaut 4,4.10<sup>-7</sup> et 6,7.10<sup>-7</sup><br />
+								Ainsi, E = (6,62.10<sup>-34</sup>*3.10<sup>8</sup>)/4,4.10<sup>-7</sup><br />
+								Donc E = 4,51.10<sup>-19</sup>J<br />
+								<br />
+								On peux par ailleurs calculer l'énergie nécessaire à cette libération dans le cas du pic rouge: <br />
+								On sait que:<br />
+								E=hv  v = c/lambda<br />
+								Donc E = (h*c)/lambda<br />
+								Ici lambda vaut 4,4.10<sup>-7</sup> et 6,7.10<sup>-7</sup><br />
+								Ainsi, E = (6,62.10<sup>-34</sup>*3.10<sup>8</sup>)/6,7.10<sup>-7</sup><br />
+								Donc E = 2,96.10<sup>-19</sup>J<br />
+								<br />
+								Donc le spectre lumineux ambiant au sein de l’environnement est bien un facteur déterminant dans le bon développement de la plante.
+							</p>
+						</p>
+					</div>
+					<div class="col-md-4">
+						<h3>Fiche Protocole: Le spectre d'action</h3>
+						<h4>1. Matériel</h4>
+						<ul>
+							<li>Sonde à CO<sub>2</sub> / O<sub>2</sub></li>
+							<li>Une sonde déterminant la luminosité en W.m<sup>-2</sup></li>
+							<li>Un Ordinateur munie du logiciel "Atelier Scientifique"</li>
+							<li>Des spots de couleurs: rouge, verte, bleue et blanche de même intensité lumineuse</li>
+							<li>Des feuilles d'Elodées</li>
+							<li>Eau riche en CO<sub>2</sub> (type Sodastream)</li>
+							<li>D'un environnement munit d'un agitateur magnétique et de caches</li>
+						</ul>
+						<h4>2. Protocole</h4>
+						<p class="text-faded">
+							<strong>Etape 1 :</strong><br />
+							- Préparez les feuilles d'Elodée, les couper finement et les introduire dans l'environnement contenant au préalable de l'eau riche en CO<sub>2</sub>.
+							<br />
+							<strong>Etape 2 :</Strong> <br />
+							- Dirigez un des spots de couleur éteint en direction de l'environnement.
+							<br />
+							<strong>Etape 3 :</Strong> <br />
+							- Après avoir relié les sondes à un ordinateur et les avoir calibrées, plongez-les dans l'environnement puis ouvrez "<i>Atelier Scientifique</i>".
+							<br />
+							<strong>Etape 4 :</Strong> <br />
+							- Démarrez l’acquisition et alterner obscurité (pendant 4 minutes) et lumière pour chacune des couleurs (pendant 5 minutes), constatez les effets (pour chaque couleur) sur la photosynthèse. 
+							Enregistrer votre production. 
+							<br />
+							
+						</p>
+						<br /><br />
+						<h3>Fiche Protocole: Le spectre d'absorption</h3>
+						<h4>1. Matériel</h4>
+						<ul>
+							<li>Un spectrophotomètre</li>
+							<li>Un ordinateur munit du logiciel prévu</li>
+							<li>Un mortier avec pilon et sable</li>
+							<li>De l'alcool quasi-absolu</li>
+							<li>Des béchers</li>
+							<li>Un filtre</li>
+							<li>Des feuilles d'épinard</li>
+						</ul>
+						<h4>2. Protocole</h4>
+						<p class="text-faded">
+							<strong>Etape 1 :</strong><br />
+							- Broyez des feuilles d'épinard dans un mortier avec du sable et de l'alcool quasi-absolue à l'aide d'un pilon afin d'obtenir un substrat homogène.
+							<br />
+							<strong>Etape 2 :</Strong> <br />
+							- On filtre la préparation, qu'on récupère dans un bêcher puis on la passe dans le récipient adéquat.
+							  Après avoir calibré le spectrophotomètre en faisant sa mise à blanc, nous passons notre préparation dans celui-ci afin de connaître
+							  les radiations absorbées.
+							<br />
+							<strong>Etape 3 :</Strong> <br />
+							- Obtention du graphique montrant le taux d'absorption en fonction de chacune des radiations dans l'intervalle compris entre 380<sub>nm</sub> et 780<sub>nm</sub> (spectre du visible).
+							<br />
+							
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="no-padding" id="portfolio">
+			<div>
+				<div class="row no-gutter">
+					<div class="col-lg-4 col-sm-6">
+						<a href="./img/spectres/1.jpg" class="portfolio-box">
+							<img src="./img/spectres/1.jpg" class="img-responsive wow bounceIn animated" data-wow-delay=".2s" alt="">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Spectre d'absorption
+									</div>
+									<div class="project-name">
+										Une feuille d'épinard
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<a href="./img/spectres/2.jpg" class="portfolio-box">
+							<img src="./img/spectres/2.jpg" class="img-responsive wow bounceIn animated" data-wow-delay=".4s" alt="">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Spectre d'absorption
+									</div>
+									<div class="project-name">
+										Broyage de l'épinard
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<a href="./img/spectres/6.jpg" class="portfolio-box">
+							<img src="./img/spectres/6.jpg" class="img-responsive wow bounceIn animated" data-wow-delay=".6s" alt="">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Spectre d'action
+									</div>
+									<div class="project-name">
+										Durant une période d'obscurité
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<a href="./img/spectres/7.jpg" class="portfolio-box">
+							<img src="./img/spectres/7.jpg" class="img-responsive wow bounceIn animated" data-wow-delay=".8s" alt="">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Spectre d'action
+									</div>
+									<div class="project-name">
+										Projection à la lumière rouge
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<a href="./img/spectres/8.jpg" class="portfolio-box">
+							<img src="./img/spectres/8.jpg" class="img-responsive wow bounceIn animated" data-wow-delay="1.2s" alt="">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Spectre d'action
+									</div>
+									<div class="project-name">
+										Projection à la lumière verte
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<a href="./img/spectres/9.jpg" class="portfolio-box">
+							<img src="./img/spectres/9.jpg" class="img-responsive wow bounceIn animated" data-wow-delay="1.4s" alt="">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Spectre d'action
+									</div>
+									<div class="project-name">
+										Projection à la lumière bleue
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+			
+		<!-- suite3 Section -->
+		<section id="suite3">
+			<div class="container">
+				<div class="row">
+					<h3 class="section-heading text-center">3. La température</h3>
+					<br />
+					<div class="col-md-8">
+						<p class="text-faded">
+							Afin de savoir si la température a un impact sur le processus de photosynthèse, nous avons établi un protocole nous permettant de tester dans des environnements de températures différentes. 
+							<br /><br />
+							<img class="img-centered" src="./img/temp.png" />
+							<figcaption class="text-center">Graphique représentant la croissance pour les 3 sujets exposés au test</figcaption>
+							<br />
+						</p>
+						<p class="text-faded">
+							Le graphique nous montre une que le végétal ayant le plus évolué est celui exposé à des températures avoisinant les 19°C. 
+							Le végétal exposé aux basses températures est rapidement mort et le dernier végétal semble croitre moins vite que le végétal à 19°C. 
+							On pourrait alors émettre l’hypothèse d’une température au la croissance serait maximum.
+							<br /><br />
+							Ce phénomène peut être expliqué par le fait que la photosynthèse pour être menée à bien est encadrée par des enzymes, notamment lors de la synthèse d'ATP et NADPH (molécule porteuse de l'énergie lumineuse convertit en énergie chimique et donc indispensable à la photosynthèse).<br /><br />
+							Or l'activité enzymatique augmente avec la température tant que cette dernière n'est pas assez élevée pur changer la structure de l'enzyme.
+							<i>« La température augmente la vitesse enzymatique puisque l'interaction entre l'enzyme et son substrat devient plus importante à forte température. Nous constatons que la vitesse augmente d'une façon exponentielle avec la température. Mais, l'enzyme est une protéine et à partir d'une certaine température, sa structure se modifie. A fortes températures la protéine se dénature et perd donc une partie de son activité enzymatique. »</i> <strong><br />- USTL - Université des Sciences et Technologies de Lille 1</strong>
+						</p>
+						<br />
+						<p class="text-faded text-center">
+							<strong>CF : <a class="text-center" href="http://www-lemm.univ-lille1.fr/biologie/biochim/co/ch2_02.html">http://www-lemm.univ-lille1.fr/biologie/biochim/co/ch2_02.html</a></strong>
+						</p>
+						<br /><br />
+						<p class="text-faded">
+							L’intensité enzymatique impacte alors la photosynthèse (Notamment en impactant la production des molécules énergétiques et donc la quantité produite).
+							De ce fait les végétaux admettent une température à la quel l’activité enzymatique et donc la photosynthèse est optimale.
+							<br /><br />
+							La température est donc bien un paramètre déterminant la bonne croissance du végétale.
+						</p>
+					</div>
+					<div class="col-md-4">
+						<h3>Fiche Protocole</h3>
+						<h4>1. Matériel</h4>
+						<ul>
+							<li>3 pots en verre</li>
+							<li>Du coton</li>
+							<li>Des graines de laitue</li>
+							<li>Des environnements à températures différentes</li>
+						</ul>
+						<h4>2. Protocole</h4>
+						<p class="text-faded">
+							<strong>Etape 1 :</strong><br />
+							- Déterminez 3 emplacements de températures différentes (dans notre cas: dans une cave oscillant entre 4 et 6°C, dans une pièce chauffé entre 19 et 21°C, et à proximité de 2 radiateurs dont la température à environ est de 30°C)
+							<br />
+							<strong>Etape 2 :</Strong> <br />
+							- Prenez 3 pots en verre, mettez généreusement du coton que vous humidifierez de la même manière pour chacun des pots et mettez-y des graines de laitue.
+							L'humidification devra être journalière.
+							<br />
+							<strong>Etape 3 :</Strong> <br />
+							- Observez à des intervalles réguliers l'évolution de la germination pour chaque pot.
+							<br />
+							<strong>Etape 4 :</Strong> <br />
+							- Après 3 semaines de germination, déterminez quel pot présente la meilleure évolution.
+							<br /><br />
+							<img style="width: 500px;" class="img-centered" src="./img/temperature/1.jpg" />
+							<figcaption class="text-center">Pot après 2 semaines de germinaisaon présentant la meilleure évolution</figcaption>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- suite4 Section -->
+		<section id="suite4">
+			<div class="container">
+				<div class="row">
+					<h3 class="section-heading text-center">4. L'hygrométrie du sol</h3>
+					<br />
+					<div class="col-md-8">
+						<p class="text-faded">
+							Afin de déterminer l'éventuel impact sur la photosynthèse de l'hygrométrie du sol, nous avons élaboré un protocole très proche de celui utilisé pour la température.
+							Celui-ci nous a permis d'observer l'évolution de la germination de graines de laitue misent dans des conditions d'hygrométrie différente.
+						</p>
+						<p class="text-faded">
+							Selon le graphique, le végétale ayant évolué correctement est celui irriguer de 30 ml d’eau par jour. 
+							Les graines du pot sec n’ont pas germé. Enfin les plantes contenues dans le troisième pot on finit par pourrir. (comme le montre cette photo)
+							<br /><br />
+							<img class="img-centered" src="./img/hygro-sol.png" />
+							<figcaption class="text-center">Graphique représentant la croissance pour les 3 sujets exposés au test</figcaption>
+							<br /><br />
+						</p>
+						<p class="text-faded">
+							Durant la vie du végétal celui-ci est amené à effectuer de multiples réactions faisant intervenir de l’eau pour son entretien (ex : oxydation de l’eau) constant d’où la nécessité de disposer d’une source de ce fluide. 
+							De plus l’eau (courante) contient des minéraux essentiels au bon développement de la plante. 
+							Néanmoins un surplus d’eau peut saturer les sols et engendrer l’asphyxie des racines qui ne pourront s’alimenter en dioxygène.
+							Il est donc normal que l’hygrométrie du sol soit un paramètre important dans l’évolution du végétal.
+						</p>
+					</div>
+					<div class="col-md-4">
+						<h3>Fiche Protocole</h3>
+						<h4>1. Matériel</h4>
+						<ul>
+							<li>4 pots en verre</li>
+							<li>Du coton</li>
+							<li>Des graines de laitue</li>
+							<li>Un éprouvette graduée</li>
+						</ul>
+						<h4>2. Protocole</h4>
+						<p class="text-faded">
+							<strong>Etape 1 :</strong><br />
+							- Prenez 3 pots en verre, mettez généreusement du coton pour chacun des pots et déposez-y des graines de laitue.
+							<br />
+							<strong>Etape 2 :</Strong> <br />
+							- Pour le premier pot, laissez le comme telle et ne que l'humidifiez pas.<br />
+							- Pour le deuxième pot, versez 30 ml d'eau dans votre éprouvette que vous déverserez dans le pot.<br />
+							- Pour le troisième pot, versez 5 cl d'eau dans votre éprouvette que vous déverserez dans le pot.<br />
+							<i>Vous effectuerez ces tâches journalièrement.</i>
+							<br />
+							<strong>Etape 3 :</Strong> <br />
+							- Observez à des intervalles réguliers l'évolution de la germination pour chacun des pots.
+							<br />
+							<strong>Etape 4 :</Strong> <br />
+							- Après 3 semaines de germination, déterminez quel pot présente la meilleure évolution.
+							<br /><br />
+							<img style="width: 500px;" class="img-centered" src="./img/germination-pourris.jpg" />
+							<figcaption class="text-center">Pot après 2 semaines ayant reçu trop d'eau</figcaption>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- suite4 Section -->
+		<section id="suite5">
+			<div class="container">
+				<div class="row">
+					<h3 class="section-heading text-center">5. L'hygrométrie de l’air</h3>
+					<br />
+					<div class="col-md-8">
+						<p class="text-faded">
+							Bien qu'il est théoriquement tout à fait possible de pouvoir établir un protocole afin de connaître l'influence de la l'humidité de l'air sur le développement de la plante, nous n'avons pas été en moyen d'établir une démarche scientifique suffisament précise. En effet, nous n'avions pas les réssources nécessaires permettant de réaliser les expérimentations se caractérisant par la création de milieux d' hygrométries de l'air différentes. Nous avons toute fois essayé d'obtenir des résultats en plaçant nos pots dans un milieu humide comme une salle de bain.
+
+							Néanmoins, il est important de savoir qu'il s'agit tout de même d'un paramètre déterminant afin d'assurer le bon développement de la plante.
+							<br /><br />
+						</p>
+						<p class="text-faded">
+							Selon le graphique, le végétale ayant évolué correctement est celui exposé à un taux moyen de 27% d'humidité constant par jour.
+							Les graines du pot sec n’ont pas germé. Enfin les plantes contenues dans le troisième pot on finit par pourrir. (comme le montre cette photo)
+							<br /><br />
+							<img class="img-centered" src="./img/hygro-air.png" />
+							<figcaption class="text-center">Graphique représentant la croissance pour les 3 sujets exposés au test</figcaption>
+							<br /><br />
+						</p>
+						<i>
+							« The effect of humidity on the rate of photosynthesis in a plant is very similar to that of water. If there is a lot of humidity in the air around the plant, less water from the plant evaporates. This allows the plant to open its stoma wider because there is no risk of losing excessive amounts of water. Because of this, the rate of photosynthesis increases as the humidity increases. »
+						</i>
+						<br /><br />
+						<strong>
+							- Charles Forstbauer
+						</strong>
+						<br /><br />
+						<i>
+							« L'effet de l'humidité sur la vitesse de la photosynthèse dans une plante est très similaire à celle de l'eau. Plus il y a de l'humidité dans l' air autour de la plante, moins l'eau de la plante s'évapore. Cela permet à la plante d'ouvrir son stoma en étant plus large, parce qu'il n'y a aucun risque de perdre des quantités excessives d'eau. Pour cette raison, le taux de photosynthèse augmente à mesure que l'humidité augmente. »
+						</i>
+						<br /><br />
+						<strong>
+							- Charles Forstbauer (Source: <a href="http://fhs-bio-wiki.pbworks.com/w/page/12145771/Factors%20effecting%20the%20rate%20of%20photosynthesis">tiré de l'anglais.</a>)
+						</strong>
+					</div>
+					<div class="col-md-4">
+						<h3>Fiche Protocole</h3>
+						<h4>1. Matériel</h4>
+						<ul>
+							<li>4 pots en verre</li>
+							<li>Du coton</li>
+							<li>Des graines de laitue</li>
+							<li>Un éprouvette graduée</li>
+						</ul>
+						<h4>2. Protocole</h4>
+						<p class="text-faded">
+							<strong>Etape 1 :</strong><br />
+							- Prenez 3 pots en verre, mettez généreusement du coton pour chacun des pots et déposez-y des graines de laitue.
+							<br />
+							<strong>Etape 2 :</Strong> <br />
+							- Pour chacun de ces pots, placez les dans des environnements à hygrométrie de l'air drastiquement différente
+							<br />
+							<strong>Etape 3 :</Strong> <br />
+							- Observez à des intervalles réguliers l'évolution de la germination pour chacun des pots.
+							<br />
+							<strong>Etape 4 :</Strong> <br />
+							- Après 3 semaines de germination, déterminez quel pot présente la meilleure évolution.
+							<br />
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Partie III Section -->
+		<section id="partie_III">
+			<div class="container">
+				<div class="row">
+					<h1 class="section-heading text-center wow tada">III - Détermination des paramètres idéaux</h1>
+					<hr />
+					<h3>1. L'intensité lumineuse</h3>
+					<p class="text-faded">
+						Il suffit d’appliqué le protocole associé plus haut, on arrêtera l’opération lorsque l’on aura constaté une baisse de l’intensité photosynthétique. 
+						La valeur idéale sera alors celle précédent celle de la baisse puisqu’il s’agira alors de la valeur pour la quel l’intensité photosynthétique est la plus haute. (intensité lumineuse idéale)
+						<br /><br />
+						<img style="width: 500px;" class="img-centered" src="./img/photo.gif" />
+						<figcaption class="text-center">Graphique représentant l'intensité photosynthétique en fonction de l'éclaircissment (<i><a href="http://www.snv.jussieu.fr/bmedia/Photosynthese-cours/06-facteurs.htm">Source</a></i>)</figcaption>
+					</p>
+					<br /><br />
+					<h3>2. Le spectre lumineux</h3>
+					<p class="text-faded">
+						En appliquant le protocole défini comme étant le du spectre d’absorption obtenez le spectre d’absorption et repérez les maximums de la fonction.
+						Le spectre lumineux à diffuser doit être composé uniquement des radiations correspondant aux maximums de la fonction. Pour être obtenir des résultats optimals (quantité d'énergie émise au pigment parfaite)
+						<br /><br />
+						<img style="width: 500px;" class="img-centered" src="./img/spectre.jpg" />
+						<figcaption class="text-center">Détermination des maximums locaux. (<i><a href="http://laboueeposeidon.free.fr/site_argonautes/images/absorbance.jpg">Source</a></i>)</figcaption>
+					</p>
+					<br /><br />
+					<h3>3. La température</h3>
+					<ul>
+						<li>Un environnement thermo-réglable</li>
+						<li>Une sonde à O<sub>2</sub> / CO<sub>2</sub></li>
+						<li>Un ventilateur pour homogénéiser l'air</li>
+					</ul>
+					<p class="text-faded">
+						La température idéale s’obtient en partant d’une température de 20°C, on incrémente ou décrémente alors la température en fonction de la progression de l’intensité photosynthétique mesurée à chaque unité de temps (obtention de la température à laquelle l'activoté enzymatique et photosynthésique sont maximales).
+						<br /><br />
+						<img style="width: 500px;" class="img-centered" src="./img/temp.gif" />
+						<figcaption class="text-center">Graphique représentant la température optimum (<i><a href="http://www.fao.org/docrep/w5183e/w5183e08.htm">Source</a></i>)</figcaption>
+					</p>
+					<br /><br />
+					<h3>4. L’hydrométrie du sol</h3>
+					<p class="text-faded">
+						La valeur idéale de l’hygrométrie du sol dépendant de multiple facteur tel que la profondeur du dit sol et sa la composition ect… 
+						Il est préférable de ce référé au protocole associé en de l’appliquer sur le le milieu pour obtenir une valeur fiable.
+					</p>
+					<br /><br />
+					<h3>5. L’hydrométrie de l'air</h3>
+					<p class="text-faded">
+						A la manière de la température et en utilisant le même matériel mais en y ajoutant un brumisateur ainsi qu'un capteur d'hygrométrie aérienne, on incrémente et décrémente le pourcentage d'humidité en mesurant la progression de l'intensité photosynthétique et en essayant d'obtenir les valeurs optimales.
+					</p>
+					<br /><br />
+					<p class="text-faded">
+						Une fois les valeurs idéales obtenu il est possible d’établir un profil sous forme de tableau :<br /><br />
+						<table class="table table-bordered table-striped"> 
+							<thead> 
+								<tr> 
+									<th> Facteurs</th>
+									<th> Valeurs</th>
+								</tr> 
+							</thead> 
+							<tbody> 
+								<tr> 
+									<th class="text-nowrap" scope="row">Intensité lumineuse</th> 
+									<td>0.14 W.m<sup>-2</sup> ≈ 89 Lx</td>
+								</tr> 
+								<tr> 
+									<th class="text-nowrap" scope="row">Spectre lumineux</th> 
+									<td>440nm & 670nm</td> 
+								</tr> 
+								<tr> 
+									<th class="text-nowrap" scope="row">Température</th> 
+									<td>19°C</td> 
+								</tr> 
+								<tr> 
+									<th class="text-nowrap" scope="row">Hygrométrie du sol</th> 
+									<td>70 cl / jour (dans le cas de notre serre)</td> 
+								</tr> 
+								<tr> 
+									<th class="text-nowrap" scope="row">Hygrométrie de l'air</th> 
+									<td>27%</td> 
+								</tr> 
+							</tbody> 
+						</table>
+					</p>
+				</div>
+			</div>
+			<hr />
+		</section>
+		
+		<!-- Partie IV Section -->
+		<section id="partie_IV">
+			<div class="container">
+				<div class="row">
+					<h1 class="section-heading text-center wow tada">IV - Construction d'un environnement intelligent</h1>
+					<hr />
+					<p class="text-faded">
+						Connaissant les paramètres liés au développement de la plante ainsi que leurs valeurs idéales, il est temps pour nous de chercher à les contrôlé à l’aide de composant électronique.
+						<br />
+					</p>
+					<h3>1. La température</h3>
+					<p class="text-faded">
+						Pour contrôler ce paramètre physique déterminant, il nous faut trouver un ou plusieurs composants capables de chauffer ou refroidir l'environnement. 
+						Dans notre cas, par soucis de sécurité et puisque cela était pratique, nous avons choisi le module à effet Peltier.
+						Ce module fonctionne à l'aide de plusieurs jonctions de deux types de métaux différents auxquelles on applique un courant électrique. 
+					</p>
+					<img style="width: 500px;" class="img-centered" src="./img/peltier.jpg" />
+					<figcaption class="text-center">Schéma Peltier (<i><a href="http://kryothermtec.com/assets/images/refroid.jpg">Source</a></i>)</figcaption>
+					<br />
+					<p class="text-faded">
+						Il produit alors une face froide et une face chaude. Ce dernier fonctionne sous 12 V (très basse tension) et permet de refroidir ou de chauffer le milieu en fonction du sens du courant. 
+						Celui-ci sera couplé à une paroi métallique pour augmenter, homogénéiser et conduire la température délivrée. 
+						<br />
+						Le module à effet Peltier est directement relié à un pont en H structure électronique composé de transistors mosfet (NPN) qui permettent ici d'inverser la polarité. 
+						Un transistor est un interrupteur activable à l'aide d'une tension à l'une de ces bornes nommées la base. 
+						Ses deux autres bornes nommées le collecteur et l'émetteur comme leur nom l'indique, reçoivent le courant et l'émettent. 
+						<br />
+					</p>
+					<img style="width: 500px;" class="img-centered" src="./img/pont-en-H.jpg" />
+					<figcaption class="text-center">Schéma électronique d'un pont en H (<i><a href="http://www.robot-maker.com/forum/uploads/monthly_09_2014/post-1-0-09274900-1411400949.jpg">Source</a></i>)</figcaption>
+					<br />
+					<p class="text-faded">
+						En utilisant un générateur nous délivrant 5 A, on peut produire un travail de 60 W (P = U.I = 12*5 = 60 W) soit le maximum que peut délivrer notre gamme de module à effet Peltier. 
+						En appliquant un méthode: la PWM (Pulse Width Modulation) ou Modulation à largeur d'impulsion qui consiste à alterner l'état maximal et l'état minimal avec un certain rapport à une très haute fréquence, on obtient un état intermédiaire. 
+						<br /><br />
+						En fractionnant une unité de temps comme une microseconde en mille nanoseconde et en activant ce transistor 200 ns et en le désactivant 800 ns, on définit par exemple un rapport cyclique de 20%. Ainsi, cela reviendrait à obtenir un travail de 12 V.
+						<br />
+						La température associé est donc de 20% fois la température de travail à plein régime.
+					</p>
+					<br />
+					<img style="width: 500px;" class="img-centered" src="http://vehiculeelectriqueduf.com/PWM.gif" />
+					<figcaption class="text-center">Graphique expliquant le mode de fonctionnement de la PWN. (<i><a href="http://vehiculeelectriqueduf.com/PWM.gif">Source</a></i>)</figcaption>
+					<br /><br />
+					<h3>2. Le spectre lumineux et l’intensité lumineuse </h3>
+					<p class="text-faded">
+						Pour contrôler le spectre lumineux émit, on utilise des LEDs de puissance couplée à un transistor.
+						C’est avec des LED de couleurs : rouge, bleu, verte, jaune, et blanche que l’on crée un spectre composé des radiations désirées. Par exemple si un pic d’absorption est présent aux alentours de 400nm c’est les LEDs de couleurs rouge qu’il faudra allumer. Le transistor ici joue le rôle d’un régulateur de tension. En effet c’est en appliquant une tension réglée par un autre composant à la base de ce transistor que la tension collecteur/émetteur est affectée. Un transistor ce compose (dans notre cas) de trois jonctions dites N ou P formant une chaine NPN. Ces éléments N ou P sont en fait des blocs de cristaux de silicium dopés positivement ou négativement à une certaine hauteur par un atome de bore ou de phosphate. Ici en joignant un bloc fortement dopé négativement un bloc posititf et un bloc négatif moindrement dopé on arrive à assurer le passage des électrons et crée un interrupteur électrique. On utilise aussi la PWN.
+					</p>
+					<br />
+					<img style="width: 500px;" class="img-centered" src="./img/LED.jpg" />
+					<figcaption class="text-center">Photo d'une LED blanche (<i><a href="http://www.abavala.com/wp-content/uploads/LED-presentation.jpg">Source</a></i>)</figcaption>
+					<h3>3. Hygrométrie du sol et de l'air</h3>
+					<p class="text-faded">
+						Pour l'hygrométrie de l'air, c'est un brumisateur rélié à un relais qui en créant des ondes mécaniques va surpasser les forces de Vandervaals. 
+						L'eau change alors d'état, il se forme alors une brume qui, soufflée par un ventilateur, augmentera la valeur de se paramètre.
+						Pour l'hygrométrie du sol, c'est une électrovanne qui, reliée à un réservoir surélevé, en étant activée va laiser l'eau s'écouler dans un serpentin parcemé de trous par lesquels l'eau sera diffusé et permettra un arrosage dans toute la serre.
+					</p>
+				</div>
+				<div class="row">
+					<br />
+					<div class="col-md-8">
+						<p class="text-faded">		
+							<br />
+							<img class="img-centered" src="./img/IV/1.jpg" />
+							<figcaption class="text-center">Photo montrant l'utilisation d'Arduino avec le DHT11 et un écran LCD. <i>(Source: de notre production)</i></figcaption>
+							<br />
+						</p>
+					</div>
+					<div class="col-md-4">
+						<h3>4. Présentation des capteurs et d'Arduino</h3>
+						<p class="text-faded">
+							C'est à l'aide d'un DHT11 (capteur de température et d'humidité de l'air) que notre système pourra justement évaluer les besoins rélatifs aux facteurs évalués. A l'aide d'un pont diviseur, la conductivité des sols sera convertie en tension, celle-ci appartenant à des intervalles prédéfinis commétant des intervalles allant de très peu d'eau à trop d'eau divisés en 4 paliers. C'est en utilisant un luxmètre que nous obtiendrons une valeur sûre de l'intensité lumineuse.
+						</p>
+						<p class="text-faded">
+							Arduino est <strong>une carte</Strong> dotée d'un micro-processeur destiné à être programmé afin d'effectuer <strong>toutes sortes de tâches</strong> dans le <strong>domaine de la domotique</strong>.
+							Celui-ci est particulièrement <strong>adapté aux débutants en électronique</strong> dû à sa facilité d'utilisation.
+							En effet, il suffit d'installer la plateforme de développement sur un ordinateur, de brancher la carte Arduino et d'injecter du code (en langage c) lui faisant effectuer des tâches spécifiques.
+						</p>
+							
+					</div>
+				</div>
+				<div class="row">
+					<br />
+					<div class="col-md-8">
+						<p class="text-faded">		
+							<br />
+							<img class="img-centered" src="./img/algo.jpg" />
+							<figcaption class="text-center">Photo réprésentant un algorithme expérimental (langage C) injecté à notre Arduino. <i>(Source: de notre production)</i></figcaption>
+							<br />
+						</p>
+					</div>
+					<div class="col-md-4">
+						<h3>5. Présentation de l'algorithme</h3>
+						<p class="text-faded">
+							L'algorithme se compose de 2 phases principales.<br />
+							Une phase d'initialisation des variables durant laquelle des valeurs seront atribuées aux variables nécessaires au fonctionnement du programme et une bouble infinie (ou boucle tout le temps vrai, exemple 1 = 1).
+							Durant l'éxecution de cette boucle, un raffrachissement des valeurs relatives aux paramètres affectant le bon développement de la plante est effectuée suivis par une modification (ou non) de ce paramètre par l'actionnement d'un processus de modification de l'environnement par un des composaants l'affectant. Par exemple: <br /><br />
+
+							<div class="code">
+								Tant que temperature_mesurée est inférieur à temperature_ideal<br />
+									 → PWN (Peltier)
+							</div>
+						</p>
+							
+					</div>
+				</div>
+				<div class="row">
+					<br />
+					<div class="col-md-8">
+						<p class="text-faded">		
+							<h3>6. Réalisation du projet</h3>
+							<br />
+							<img class="img-centered" src="./img/serre.jpg" />
+							<figcaption class="text-center">Photo finale de notre serre. <i>(Source: de notre production)</i></figcaption>
+							<br />
+						</p>
+						<p class="text-faded">
+							En utilisant l'algorithme, les outils et les méthodes décrites ci-dessus, nous avons entrepris la réalisation d'un environnement intelligent.
+						</p>
+					</div>
+					<div class="col-md-4">
+						<h3>Fiche Matériel</h3>
+						<ul>
+							<li>Une Arduino</li>
+							<li>Un générateur</li>
+							<li>6 transistors mosfet</li>
+							<li>6 transistors</li>
+							<li>Un DHT11 (capteur de température et d'humidité de l'air)</li>
+							<li>Une électrovalve</li>
+							<li>2 modules à effet Peltier</li>
+							<li>2 écrans LCD</li>
+							<li>Des duponts WIRE (fils de couleurs) (environ 50)</li>
+							<li>2 relais</li>
+							<li>du polystyrène (2 plaques 25x40cm<sup>2</sup>)</li>
+							<li>4 leds de puissances de couleurs différentes (rouge, bleue, verte, blanche)</li>
+							<li>Une plaque en alluminium 30x40cm<sup>2</sup></li>
+							<li>Une cuve d'eau d'eau</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<hr />
+		</section>
+		
+		<!-- Conclusion Section -->
+		<section id="conclusion">
+			<div class="container">
+				<div class="row">
+					<h1 class="section-heading text-center wow tada">Conclusion</h1>
+					<hr />
+					<p class="text-faded">
+						Suite aux nombreuses expérimentations effectuées et au vue des résultats tout à fait satisfaisants que nous avons eu, nous sommes maintenant en mesure de dire que notre projet est tout à fait réalisable.
+						Cependant, nous pouvons encore nous demander si notre solution proposée <strong>est viable dans un contexte d’urbanisation</strong>. 
+						En effet, il serait tout à fait envisageable d’imaginer notre serre du fait <strong>de sa taille réduite</strong>. 
+						Nous savons que dans le processus de photosynthèse que l’un de ces réactifs est le CO<sub>2</sub> et que l’un de ces produits est le dioxygène. 
+						Donc notre projet participerait également <strong>à lutter contre la pollution</strong>. 
+						Bien que prometteur, notre projet <strong>peut être amélioré</strong>, en faisant fonctionner notre serre à l’aide <strong>d’énergies propres</strong>. 
+						Nous pensons particulièrement à la mise en place <strong>de panneaux photovoltaïques</strong> nous permettant d’utiliser l’énergie solaire comme ressource en électricité. 
+						<br />
+						Afin de fournir les besoins en eau de notre plante, nous pouvons également imaginer <strong>récupérer l’eau de pluie</strong>.
+						Nous doutons cependant après réflexion que la serre, même reproduite à échelle réelle (donc dans des dimensions plus grande), puisse produire suffisament jusqu'à satisfaire pleinement les besoins futurs.
+					</p>
+				</div>
+				<br />
+			</div>
+		</section>
+
+		<!-- Bibliographie Section -->
+		<section id="conclusion">
+			<div class="container">
+				<div class="row">
+					<h1 class="section-heading text-center wow tada">Bibliographie</h1>
+					<hr />
+					<p class="text-faded text-center">
+					<a href="http://www.snv.jussieu.fr/bmedia/Photosynthese-cours/06-facteurs.htm">Jussieu</a><br />
+						<a href="https://fr.wikipedia.org/wiki/D%C3%A9naturation">Dénaturalisation</a><br />
+						<a href="http://www-lemm.univ-lille1.fr/biologie/biochim/co/ch2_02.html">www-lemm.univ-lille1.fr</a><br />
+						<a href="hhttp://www.insee.fr/fr/themes/tableau.asp?reg_id=98&ref_id=CMPTEF01116">Insee</a><br />
+						<a href="https://www.youtube.com/watch?v=XmFg91BmS-o&feature=youtu.be&t=34s">Youtube</a><br />
+						<a href="http://www.biology.iupui.edu/biocourses/N100/images/ch9photosynth.jpg">biology.iupui.edu/</a><br />
+						<a href="http://vehiculeelectriqueduf.com/">vehiculeelectriqueduf.com</a><br />
+						<a href="hhttp://www.fao.org/docrep/w5183e/w5183e08.htm">fao.org</a><br />
+					</p>
+				</div>
+				<br />
+			</div>
+		</section>
+		
+		<!-- Auteurs Section -->
+		<section id="auteurs" class="parallax parallax1">
+			<div class="parallax-overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<a href="#" class="page-scroll btn btn-xl wow tada">De Sébastien Menozzi et Annisse Menacer</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer Section -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<span class="copyright">Site web dans le cadre des TPE. <strong>Tous droits réservés.</strong></span>
+					</div>
+					<div class="col-md-6">
+						<ul class="list-inline quicklinks">
+							<li><a href="http://sebmenozzi.com">Home</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+
+		<!-- Bootstrap Core JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- Plugin JavaScript -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="js/classie.js"></script>
+		<!-- Header Animation -->
+		<script src="js/cbpAnimatedHeader.js"></script>
+		<!-- wow.js is a JavaScript plugin that reveals animations when you scroll. -->
+		<script src="js/wow.min.js"></script>
+		<script>
+		$(function() {
+			new WOW().init();
+		});
+		</script>
+
+		<!-- Custom Theme JavaScript -->
+		<script src="js/index.js"></script>
+
+	</body>
+</html>
